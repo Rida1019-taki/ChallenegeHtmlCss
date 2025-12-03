@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+/*body{
+    background-color: rgb(121, 114, 109);
+}
+.container{
+    padding-top: 20px;
+    background-color: rgb(120, 158, 135);
+    height: 50px;
+    display: flex;
+}
+.liste{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+li{
+    padding-top: 5px;
+    font-size: large;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0 30px;
+}
+
+@media (max-width: 480px) {
+
+ 
+} */
+/* DESIGN NORMAL (DESKTOP) */
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
+
+.liste {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.liste li {
+    cursor: pointer;
+}
+
+/* --- MEDIA QUERY : TELEPHONE --- */
+@media (max-width: 480px) {
+
+    .navbar {
+        flex-direction: column;  /* twali 3 lignes */
+        gap: 10px;               /* espace bin les lignes */
+    }
+
+    .liste {
+        flex-direction: column;  /* les items t7ettou wa7ed ta7t wa7ed */
+        gap: 10px;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .liste li {
+        background: #444;
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+    }
+} */
+/* NORMAL (DESKTOP) -------------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 15px;
+    color: white;
+}
+
+.liste {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.liste li {
+    cursor: pointer;
+}
+
+/* Hide checkbox */
+.toggle {
+    display: none;
+}
+
+/* HAMBURGER BUTTON -------------------------- */
+.hamburger {
+    display: none;  /* hide in desktop */
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 30px;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+}
+
+/* MOBILE VERSION ---------------------------- */
+@media (max-width: 480px) {
+
+    .liste {
+        display: none;  /* hidden by default */
+        flex-direction: column;
+        background: #222;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 6px;
+    }
+
+    .hamburger {
+        display: flex;   /* show the icon */
+    }
+
+    /* When checkbox is checked → show menu */
+    .toggle:checked ~ .liste {
+        display: flex;
+    }
+}

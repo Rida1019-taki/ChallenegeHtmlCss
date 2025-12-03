@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(107, 104, 100);
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.containerPricipale{
+    background-color: rgb(216, 216, 223);
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    align-items: center;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.basic{
+    width: 300px;
+    height: 550px;
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding-left: 20px;
+    
+}
+
+.pro{
+    width: 300px;
+    height: 550px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding-left: 20px;
+    
+}
+.Premium{
+    width: 350px;
+    height: 550px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+.Premium button{
+    height: 50px;
+    width: 250px;
+    background-color: chartreuse;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.pro button{
+    margin-bottom: 20px;
+    height: 50px;
+    width: 250px;
+    background-color: chartreuse;
+    border-radius: 30px;
+}
+.pr{
+    display: flex;
+    justify-content: center;
+}
+.p{
+    display: flex;
+    justify-content: center;
+
+}
+.lab{
+    display: flex;
+    justify-content: center;
+}
+
+.plan1 h3{
+    font-size: 40px;
+}
+.plan1 lab {
+    margin-bottom: 20px;
+}

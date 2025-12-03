@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(194, 145, 111);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.para{
+  width: 300px;
+  text-align: center;
+  background-color: rgb(219, 163, 122);
+  border-radius: 20px;
+  padding: 20px;
+}
+.button{
+  height: 50px;
+  width: 80px;
+  border-radius: 30px;
+  background-color: chocolate;
+}
